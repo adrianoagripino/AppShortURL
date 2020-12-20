@@ -12,16 +12,14 @@ import Clipboard from '@react-native-community/clipboard';
 import styles from './styles';
 
 export default function Home() {
-  // adding keyboard control for IOS
-  Keyboard.dismiss();
-
+ 
   // useState variable definition
   const [url, setUrl] = useState('');
   const [name, setName] = useState('');
   const [urlFinal, setUrlFinal] = useState('');
 
   // add your api key
-  const key = 'b305aa29e3e9a6784837870f1d354aaf9a4b3';
+  const key = ''; 
 
   // function to clear fields
   const clearInput = () => {
@@ -32,11 +30,13 @@ export default function Home() {
 
   // using fetch to build the link shortener api
   const short = async () => {
-    
+    // adding keyboard control for IOS
+    Keyboard.dismiss();
     // checks if the url starts with https or http, otherwise it will display an invalid url alert.
     if (url.includes('https://') || url.includes('http://')) {
-      await fetch(`https://cutt.ly/api/api.php?key=${key}&short=${url}&name=${name}`)
-      .then(async (response) => {
+      await fetch(
+        `https://cutt.ly/api/api.php?key=${key}&short=${url}&name=${name}`
+        ).then(async (response) => {
         const data = await response.json();
         
         // verifies the status, it can be consulted in the documentation of the api https://cutt.ly/
