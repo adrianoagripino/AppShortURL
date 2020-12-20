@@ -1,6 +1,6 @@
 A simple mobile URL shortener application with React Native.
 
-<img src="https://github.com/adrianoagripino/AppShortURL/blob/main/screen/01.jpeg" width="40%"> <img src="https://github.com/adrianoagripino/appShortURL/blob/main/screen/02.jpeg" width="40%">
+<img src="https://github.com/adrianoagripino/appShortUrl/blob/main/screen/01.jpeg" width="40%"> <img src="https://github.com/adrianoagripino/appShortUrl/blob/main/screen/02.jpeg" width="40%">
 
 ## Instructions
 
