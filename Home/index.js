@@ -92,7 +92,7 @@ export default function Home() {
         <TextInput
           style={styles.urlInput}
           onChangeText={(texto) => setName(texto)}
-          value={this.name}
+          value={name}
           placeholder="Customized name..."
           clearButtonMode="always"
         />
