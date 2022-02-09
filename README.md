@@ -2,7 +2,7 @@
 
 > Aplicação criada em React Native.
 
-<img src="https://github.com/adrianoagripino/appShortUrl/blob/master/screen/01.png" width="40%"> <img src="https://github.com/adrianoagripino/appShortUrl/blob/master/screen/02.png" width="40%">
+<img src="https://github.com/adrianoagripino/appShortUrl/blob/master/screen/01.png" width="25%"> <img src="https://github.com/adrianoagripino/appShortUrl/blob/master/screen/02.png" width="25%">
 
 ## Instruções
 
